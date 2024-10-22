@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 576px) {
     .logo{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .menu-items{
         flex-direction: column;
@@ -26,4 +26,11 @@
     .banner-title {
         font-size: 2.5rem;
     }
+
+    .banner-btn-container .banner-download-app, .primary-btn {
+        padding: 8px 20px;
+        font-size: 1rem;
+    }
+    
+
 }
