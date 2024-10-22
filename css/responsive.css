@@ -1,0 +1,13 @@
+/* Mobile Device */
+
+@media screen and (max-width: 576px) {
+    .menu-items{
+        flex-direction: column;
+        display: none;
+    }
+    .hamburger-btn{
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+}
