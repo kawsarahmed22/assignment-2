@@ -1,6 +1,9 @@
 /* Mobile Device */
 
 @media screen and (max-width: 576px) {
+    .logo{
+        font-size: 1.2rem;
+    }
     .menu-items{
         flex-direction: column;
         display: none;
@@ -9,5 +12,18 @@
         display: block;
         display: flex;
         align-items: center;
+    }
+
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-left, .banner-right{
+        width: 100%;
+    }
+    .video-tutorial {
+        left: 2%;
+    }
+    .banner-title {
+        font-size: 2.5rem;
     }
 }

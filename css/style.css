@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 
 /* Common CSS */
 * {
@@ -10,7 +10,11 @@
 
 body {
     font-family: "Inter", sans-serif;
-    background: rgb(0, 0, 0);
+    background: rgb(56, 56, 56);
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 a {
@@ -25,6 +29,17 @@ ol {
 .d-flex {
     display: flex;
 }
+
+.primary-btn {
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+}
+
 
 /* header */
 header,
@@ -42,7 +57,7 @@ main {
 .logo {
     color: rgb(230, 83, 60);
     font-style: italic;
-    font-size: 36px;
+    font-size: 2rem;
 }
 
 .menu-items {
@@ -64,8 +79,85 @@ main {
 .menu-items li a {
     color: rgb(255, 255, 255);
 }
+
 .hamburger-btn {
     color: white;
     font-size: 24px;
     display: none;
+}
+
+/* Banner */
+
+.banner-left {
+    width: 58%;
+}
+
+
+.banner-highlight {
+    font-family: "Oleo Script", system-ui;
+
+}
+
+.banner-title {
+    color: white;
+    font-size: 4rem;
+}
+
+.banner-description {
+    margin: 20px 0;
+}
+
+.banner-btn-container .banner-download-app {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.banner-right {
+    width: 40%;
+    margin-left: 2%;
+    position: relative;
+}
+
+.banner-right h2 {
+    color: white;
+}
+.workout-video{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    top: 20%;
+    left: 44%;
+}
+.video-tutorial {
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    top: 50%;
+    left: -24%;
+
+}
+
+.video-tutorial .video-icon {
+    color: rgb(230, 83, 60);
+
 }
