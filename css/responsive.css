@@ -49,6 +49,9 @@
     .run-extra-container {
         flex-direction: column;
     }
+    .bmi-calculator-content{
+        flex-direction: column;
+    }
 }
 
 

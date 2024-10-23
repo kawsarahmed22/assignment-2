@@ -236,3 +236,37 @@ main {
 .run-extra-img img {
     width: 100%;
 }
+
+/* BMI Calculator */
+.bmi-calculator-content{
+    display: flex;
+    justify-content: space-between;
+}
+.bmi-calculator h4 {
+    color: white;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.bmi-calculator-right input,
+select {
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    margin: 10px;
+}
