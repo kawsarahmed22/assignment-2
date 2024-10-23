@@ -1,36 +1,62 @@
-/* Mobile Device */
+/* Small Device */
 
 @media screen and (max-width: 576px) {
-    .logo{
+    .logo {
         font-size: 1.5rem;
     }
-    .menu-items{
+
+    .menu-items {
         flex-direction: column;
         display: none;
     }
-    .hamburger-btn{
+
+    .hamburger-btn {
         display: block;
         display: flex;
         align-items: center;
     }
-
-    .banner-container{
+    .banner-container {
         flex-direction: column;
     }
-    .banner-left, .banner-right{
+    .banner-left,
+    .banner-right {
         width: 100%;
     }
-    .video-tutorial {
-        left: 2%;
-    }
-    .banner-title {
-        font-size: 2.5rem;
+    .banner-right img {
+        width: 100%;
     }
 
-    .banner-btn-container .banner-download-app, .primary-btn {
-        padding: 8px 20px;
-        font-size: 1rem;
+    .workout-video-conten h2, .video-tutorial h2 {
+        font-size: 1.2rem;
     }
-    
+    .workout-video-conten p, .video-tutorial p {
+        font-size: .8rem;
+    }
+    .workout-video {
+   
+        top: 16%;
+        left: 50%;
+    }
+    .video-tutorial{
+        top: 50%;
+        left: 8%;
+    }
+
+    .change-habit-cart-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* Medium Device */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .change-habit-cart-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large Device */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
 }

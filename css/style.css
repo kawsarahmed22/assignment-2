@@ -10,14 +10,29 @@
 
 body {
     font-family: "Inter", sans-serif;
-background-color: black;}
+    background-color: rgb(37, 37, 37);
+}
+
+section {
+    margin: 50px 0;
+}
+
+h2 {
+    color: white;
+    margin: 5px 0;
+}
 
 p {
     color: rgba(255, 255, 255, 0.5);
+    margin: 5px 0;
 }
 
 a {
     text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
 }
 
 ul,
@@ -30,9 +45,10 @@ ol {
 }
 
 .primary-btn {
-    background-color: rgb(230, 83, 60);
-    border-radius: 42px;
-    padding: 16px 40px 16px 40px;
+    width: 224px;
+    height: 54px;
+    background-color: #e6533c;
+    border-radius: 3rem;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 600;
@@ -88,7 +104,7 @@ main {
 /* Banner */
 
 .banner-left {
-    width: 58%;
+    width: 60%;
 }
 
 
@@ -99,64 +115,103 @@ main {
 
 .banner-title {
     color: white;
-    font-size: 4rem;
+    font-size: 2.8rem;
 }
 
 .banner-description {
     margin: 20px 0;
 }
 
+.banner-btn-container {
+    gap: 10px;
+}
+
 .banner-btn-container .banner-download-app {
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 42px;
-    padding: 16px 40px 16px 40px;
+    width: 224px;
+    height: 54px;
+    border: 1px solid #ffffff;
+    border-radius: 3rem;
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-size: 1.2rem;
     font-weight: 600;
-    margin-left: 15px;
+
 }
 
 .banner-right {
     width: 40%;
     margin-left: 2%;
     position: relative;
+
+}
+
+.banner-right img {
+    width: 100%;
 }
 
 .banner-right h2 {
     color: white;
 }
-.workout-video{
-    padding: 20px;
+
+.video-icon {
+    color: red;
+}
+
+.workout-video {
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     position: absolute;
-    width: 206px;
-    height: 96px;
-    top: 20%;
-    left: 44%;
+    width: 200px;
+    height: 80px;
+    top: 16%;
+    left: 54%;
 }
+
 .video-tutorial {
     align-items: center;
+    justify-content: center;
     gap: 10px;
-    padding: 20px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     position: absolute;
-    width: 206px;
-    height: 96px;
+    width: 200px;
+    height: 80px;
     top: 50%;
     left: -24%;
 
 }
 
-.video-tutorial .video-icon {
-    color: rgb(230, 83, 60);
+
+/* Change Habit */
+
+.change-habit-cart-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.change-habit-cart {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+.change-habit-cart img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.change-habit-cart h3{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px 0;
 
 }
