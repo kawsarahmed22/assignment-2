@@ -45,6 +45,10 @@
     .change-habit-cart-container{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .run-extra-container {
+        flex-direction: column;
+    }
 }
 
 

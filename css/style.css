@@ -192,7 +192,7 @@ main {
 
 /* Change Habit */
 
-.change-habit-cart-container{
+.change-habit-cart-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
@@ -203,15 +203,36 @@ main {
     text-align: center;
     padding: 10px;
 }
-.change-habit-cart img{
+
+.change-habit-cart img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
 }
-.change-habit-cart h3{
+
+.change-habit-cart h3 {
     color: #ffffff;
     font-size: 1rem;
     font-weight: 600;
     margin: 10px 0;
 
+}
+
+
+/* Run Extra */
+.run-extra-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 18px;
+    background: #222222;
+    padding: 50px;
+}
+
+.run-extra-container p {
+    margin: 10px 0;
+}
+
+.run-extra-img img {
+    width: 100%;
 }
