@@ -238,10 +238,11 @@ main {
 }
 
 /* BMI Calculator */
-.bmi-calculator-content{
+.bmi-calculator-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
 .bmi-calculator h4 {
     color: white;
     margin: 10px 0;
@@ -269,4 +270,37 @@ select {
     color: white;
     border: none;
     margin: 10px;
+}
+
+/* Meat Our Team */
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.team-container img {
+    width: 326.67px;
+    height: 272px;
+}
+
+.trainer-img {
+    position: relative;
+}
+
+.trainer-info {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.trainer-info h5,
+.trainer-info small {
+    color: white;
+
 }
